@@ -19,11 +19,23 @@ header h1 {
   display: inline-flex;
 }
 
-footer p {
-  background: #bbbbbb;
+.footer__contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.3em;
+  background: #bbbbbb;
   color: #ffffff;
   margin: 15px 0 0 0;
   text-align: center;
-  padding: 10px;
+}
+
+.footer__contenedor p,
+i {
+  margin-right: 10px;
+}
+
+.footer__contenedor i {
+  font-size: 1.5em;
+  color: #ffffff;
 }

@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./src/javascript.ico" type="image/x-icon" />
     <title>Editor en Tiempo real</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <!-- Fontawesome -->
     <script
       src="https://kit.fontawesome.com/4f5417c32d.js"
@@ -21,8 +26,12 @@
     </header>
 
     <div class="contenedor">
-      <textarea></textarea>
-      <iframe></iframe>
+      <textarea
+        class="area"
+        id="area"
+        placeholder="Comienza a codificar 🤓"
+      ></textarea>
+      <iframe class="vista" id="vista"></iframe>
     </div>
 
     <footer>
